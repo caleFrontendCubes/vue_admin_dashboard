@@ -41,6 +41,7 @@ $system-font-family:'Inter', sans-serif;
 
 @mixin large-text($color:$white) {
   @extend %large;
+  color: $color;
 }
 
 @mixin large-text-bold($color:$white) {
@@ -56,6 +57,7 @@ $system-font-family:'Inter', sans-serif;
 
 @mixin medium-text($color:$white) {
   @extend %medium;
+  color: $color;
 }
 
 @mixin medium-text-bold($color:$white) {
